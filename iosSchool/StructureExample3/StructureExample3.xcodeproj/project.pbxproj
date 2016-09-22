@@ -10,6 +10,9 @@
 		AA30D3F81D92187600FE29CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA30D3F71D92187600FE29CF /* main.m */; };
 		AA30D4001D9220B100FE29CF /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = AA30D3FF1D9220B100FE29CF /* Warrior.m */; };
 		AA30D4031D92279E00FE29CF /* Wizard.m in Sources */ = {isa = PBXBuildFile; fileRef = AA30D4021D92279E00FE29CF /* Wizard.m */; };
+		AA30D4061D9269E300FE29CF /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = AA30D4051D9269E300FE29CF /* Cat.m */; };
+		AA30D4091D926BAA00FE29CF /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = AA30D4081D926BAA00FE29CF /* Dog.m */; };
+		AA30D40C1D926BCF00FE29CF /* Tiger.m in Sources */ = {isa = PBXBuildFile; fileRef = AA30D40B1D926BCF00FE29CF /* Tiger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		AA30D3FF1D9220B100FE29CF /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
 		AA30D4011D92279E00FE29CF /* Wizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wizard.h; sourceTree = "<group>"; };
 		AA30D4021D92279E00FE29CF /* Wizard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wizard.m; sourceTree = "<group>"; };
+		AA30D4041D9269E300FE29CF /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		AA30D4051D9269E300FE29CF /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		AA30D4071D926BAA00FE29CF /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		AA30D4081D926BAA00FE29CF /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		AA30D40A1D926BCF00FE29CF /* Tiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tiger.h; sourceTree = "<group>"; };
+		AA30D40B1D926BCF00FE29CF /* Tiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tiger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +73,12 @@
 			isa = PBXGroup;
 			children = (
 				AA30D3F71D92187600FE29CF /* main.m */,
+				AA30D4041D9269E300FE29CF /* Cat.h */,
+				AA30D4071D926BAA00FE29CF /* Dog.h */,
+				AA30D40A1D926BCF00FE29CF /* Tiger.h */,
+				AA30D40B1D926BCF00FE29CF /* Tiger.m */,
+				AA30D4081D926BAA00FE29CF /* Dog.m */,
+				AA30D4051D9269E300FE29CF /* Cat.m */,
 				AA30D4011D92279E00FE29CF /* Wizard.h */,
 				AA30D4021D92279E00FE29CF /* Wizard.m */,
 				AA30D3FE1D9220B100FE29CF /* Warrior.h */,
@@ -129,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA30D4061D9269E300FE29CF /* Cat.m in Sources */,
 				AA30D4001D9220B100FE29CF /* Warrior.m in Sources */,
+				AA30D4091D926BAA00FE29CF /* Dog.m in Sources */,
+				AA30D40C1D926BCF00FE29CF /* Tiger.m in Sources */,
 				AA30D4031D92279E00FE29CF /* Wizard.m in Sources */,
 				AA30D3F81D92187600FE29CF /* main.m in Sources */,
 			);
@@ -258,6 +276,7 @@
 				AA30D3FD1D92187600FE29CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
