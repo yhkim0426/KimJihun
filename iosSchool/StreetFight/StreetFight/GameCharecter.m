@@ -10,4 +10,36 @@
 
 @implementation GameCharecter
 
+- (id)physicalAttack:(NSInteger)damage {
+    
+    return nil;
+}
+
+- (id)magicalAttack:(NSInteger)damage {
+
+    return nil;
+}
+
+- (id)skillTo:(NSString *)anemy {
+    
+    return nil;
+}
+
+- (id)skillDamage:(NSInteger)anemy {
+    
+    return nil;
+}
+
+- (id)skillTo:(NSString *)anemy skillDamage:(NSInteger)damage {
+    
+    return nil;
+}
+
+- (id)physicalAttack:(NSInteger)damage defensive:(NSInteger)defensive {
+    
+    return nil;
+}
+
+
+
 @end

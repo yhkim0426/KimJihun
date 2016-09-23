@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AA8CAC741D94EADD00275148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8CAC731D94EADD00275148 /* main.m */; };
+		AA8CAC7C1D94EB0000275148 /* GameCharecter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8CAC7B1D94EB0000275148 /* GameCharecter.m */; };
+		AA8CAC7F1D94EEA000275148 /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8CAC7E1D94EEA000275148 /* Warrior.m */; };
+		AA8CAC821D94EEA800275148 /* Wizard.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8CAC811D94EEA800275148 /* Wizard.m */; };
+		AA8CAC851D94EEAE00275148 /* Archer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8CAC841D94EEAE00275148 /* Archer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		AA8CAC701D94EADD00275148 /* StreetFight */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StreetFight; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8CAC731D94EADD00275148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA8CAC7A1D94EB0000275148 /* GameCharecter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCharecter.h; sourceTree = "<group>"; };
+		AA8CAC7B1D94EB0000275148 /* GameCharecter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCharecter.m; sourceTree = "<group>"; };
+		AA8CAC7D1D94EEA000275148 /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		AA8CAC7E1D94EEA000275148 /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
+		AA8CAC801D94EEA800275148 /* Wizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wizard.h; sourceTree = "<group>"; };
+		AA8CAC811D94EEA800275148 /* Wizard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wizard.m; sourceTree = "<group>"; };
+		AA8CAC831D94EEAE00275148 /* Archer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archer.h; sourceTree = "<group>"; };
+		AA8CAC841D94EEAE00275148 /* Archer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				AA8CAC731D94EADD00275148 /* main.m */,
+				AA8CAC7A1D94EB0000275148 /* GameCharecter.h */,
+				AA8CAC7B1D94EB0000275148 /* GameCharecter.m */,
+				AA8CAC7D1D94EEA000275148 /* Warrior.h */,
+				AA8CAC7E1D94EEA000275148 /* Warrior.m */,
+				AA8CAC801D94EEA800275148 /* Wizard.h */,
+				AA8CAC811D94EEA800275148 /* Wizard.m */,
+				AA8CAC831D94EEAE00275148 /* Archer.h */,
+				AA8CAC841D94EEAE00275148 /* Archer.m */,
 			);
 			path = StreetFight;
 			sourceTree = "<group>";
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8CAC821D94EEA800275148 /* Wizard.m in Sources */,
+				AA8CAC7F1D94EEA000275148 /* Warrior.m in Sources */,
 				AA8CAC741D94EADD00275148 /* main.m in Sources */,
+				AA8CAC7C1D94EB0000275148 /* GameCharecter.m in Sources */,
+				AA8CAC851D94EEAE00275148 /* Archer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
