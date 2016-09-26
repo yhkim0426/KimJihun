@@ -41,6 +41,7 @@
     [self.playButton addTarget:self action:@selector(clickPlayButton:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.playButton];
     
+    
     self.timeLabel = [[UILabel alloc] initWithFrame:labelFrame];
     [self.timeLabel setTextColor:[UIColor brownColor]];
     [self.view addSubview:self.timeLabel];
@@ -65,6 +66,8 @@
     NSInteger durationSec = ((NSInteger)duration % 60);
 
     NSString *timeString = [[NSString alloc] initWithFormat:@"%02ld: %02ld / %02ld: %02ld", currentMin, currentSec, durationMin, durationSec];
+    
+    NSLog(@"******************** %@",self.timeLabel);
     
     [self.timeLabel setText:timeString];
     

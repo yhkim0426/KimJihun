@@ -35,6 +35,7 @@ int main(int argc, const char * argv[]) {
    
     
     [jack physicalAttackT:bini.name];
+    
     [jack physicalAttackTo:bini];
     [jack physicalAttackToo:@"test"];
     
