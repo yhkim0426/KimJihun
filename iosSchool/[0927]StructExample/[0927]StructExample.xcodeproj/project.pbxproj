@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA8CAC741D94EADD00275148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8CAC731D94EADD00275148 /* main.m */; };
-		AA8CAC7C1D94EB0000275148 /* GameCharecter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8CAC7B1D94EB0000275148 /* GameCharecter.m */; };
-		AA8CAC7F1D94EEA000275148 /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8CAC7E1D94EEA000275148 /* Warrior.m */; };
-		AA8CAC821D94EEA800275148 /* Wizard.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8CAC811D94EEA800275148 /* Wizard.m */; };
-		AA8CAC851D94EEAE00275148 /* Archer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8CAC841D94EEAE00275148 /* Archer.m */; };
+		AA3283BC1D9A55E100A496D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3283BB1D9A55E100A496D9 /* main.m */; };
+		AA3283C41D9A560900A496D9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3283C31D9A560900A496D9 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AA8CAC6E1D94EADD00275148 /* CopyFiles */ = {
+		AA3283B61D9A55E100A496D9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -27,20 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AA8CAC701D94EADD00275148 /* StreetFight */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StreetFight; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA8CAC731D94EADD00275148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AA8CAC7A1D94EB0000275148 /* GameCharecter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCharecter.h; sourceTree = "<group>"; };
-		AA8CAC7B1D94EB0000275148 /* GameCharecter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCharecter.m; sourceTree = "<group>"; };
-		AA8CAC7D1D94EEA000275148 /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
-		AA8CAC7E1D94EEA000275148 /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
-		AA8CAC801D94EEA800275148 /* Wizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wizard.h; sourceTree = "<group>"; };
-		AA8CAC811D94EEA800275148 /* Wizard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wizard.m; sourceTree = "<group>"; };
-		AA8CAC831D94EEAE00275148 /* Archer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archer.h; sourceTree = "<group>"; };
-		AA8CAC841D94EEAE00275148 /* Archer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archer.m; sourceTree = "<group>"; };
+		AA3283B81D9A55E100A496D9 /* [0927]StructExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "[0927]StructExample"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3283BB1D9A55E100A496D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA3283C21D9A560900A496D9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AA3283C31D9A560900A496D9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA8CAC6D1D94EADD00275148 /* Frameworks */ = {
+		AA3283B51D9A55E100A496D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,107 +41,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA8CAC671D94EADD00275148 = {
+		AA3283AF1D9A55E100A496D9 = {
 			isa = PBXGroup;
 			children = (
-				AA8CAC721D94EADD00275148 /* StreetFight */,
-				AA8CAC711D94EADD00275148 /* Products */,
+				AA3283BA1D9A55E100A496D9 /* [0927]StructExample */,
+				AA3283B91D9A55E100A496D9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AA8CAC711D94EADD00275148 /* Products */ = {
+		AA3283B91D9A55E100A496D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA8CAC701D94EADD00275148 /* StreetFight */,
+				AA3283B81D9A55E100A496D9 /* [0927]StructExample */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA8CAC721D94EADD00275148 /* StreetFight */ = {
+		AA3283BA1D9A55E100A496D9 /* [0927]StructExample */ = {
 			isa = PBXGroup;
 			children = (
-				AA8CAC731D94EADD00275148 /* main.m */,
-				AA8CAC7A1D94EB0000275148 /* GameCharecter.h */,
-				AA8CAC7B1D94EB0000275148 /* GameCharecter.m */,
-				AA8CAC7D1D94EEA000275148 /* Warrior.h */,
-				AA8CAC7E1D94EEA000275148 /* Warrior.m */,
-				AA8CAC801D94EEA800275148 /* Wizard.h */,
-				AA8CAC811D94EEA800275148 /* Wizard.m */,
-				AA8CAC831D94EEAE00275148 /* Archer.h */,
-				AA8CAC841D94EEAE00275148 /* Archer.m */,
+				AA3283BB1D9A55E100A496D9 /* main.m */,
+				AA3283C21D9A560900A496D9 /* Person.h */,
+				AA3283C31D9A560900A496D9 /* Person.m */,
 			);
-			path = StreetFight;
+			path = "[0927]StructExample";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA8CAC6F1D94EADD00275148 /* StreetFight */ = {
+		AA3283B71D9A55E100A496D9 /* [0927]StructExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA8CAC771D94EADD00275148 /* Build configuration list for PBXNativeTarget "StreetFight" */;
+			buildConfigurationList = AA3283BF1D9A55E100A496D9 /* Build configuration list for PBXNativeTarget "[0927]StructExample" */;
 			buildPhases = (
-				AA8CAC6C1D94EADD00275148 /* Sources */,
-				AA8CAC6D1D94EADD00275148 /* Frameworks */,
-				AA8CAC6E1D94EADD00275148 /* CopyFiles */,
+				AA3283B41D9A55E100A496D9 /* Sources */,
+				AA3283B51D9A55E100A496D9 /* Frameworks */,
+				AA3283B61D9A55E100A496D9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StreetFight;
-			productName = StreetFight;
-			productReference = AA8CAC701D94EADD00275148 /* StreetFight */;
+			name = "[0927]StructExample";
+			productName = "[0927]StructExample";
+			productReference = AA3283B81D9A55E100A496D9 /* [0927]StructExample */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AA8CAC681D94EADD00275148 /* Project object */ = {
+		AA3283B01D9A55E100A496D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = iosSchool;
 				TargetAttributes = {
-					AA8CAC6F1D94EADD00275148 = {
+					AA3283B71D9A55E100A496D9 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = AA8CAC6B1D94EADD00275148 /* Build configuration list for PBXProject "StreetFight" */;
+			buildConfigurationList = AA3283B31D9A55E100A496D9 /* Build configuration list for PBXProject "[0927]StructExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = AA8CAC671D94EADD00275148;
-			productRefGroup = AA8CAC711D94EADD00275148 /* Products */;
+			mainGroup = AA3283AF1D9A55E100A496D9;
+			productRefGroup = AA3283B91D9A55E100A496D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA8CAC6F1D94EADD00275148 /* StreetFight */,
+				AA3283B71D9A55E100A496D9 /* [0927]StructExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AA8CAC6C1D94EADD00275148 /* Sources */ = {
+		AA3283B41D9A55E100A496D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA8CAC821D94EEA800275148 /* Wizard.m in Sources */,
-				AA8CAC7F1D94EEA000275148 /* Warrior.m in Sources */,
-				AA8CAC741D94EADD00275148 /* main.m in Sources */,
-				AA8CAC7C1D94EB0000275148 /* GameCharecter.m in Sources */,
-				AA8CAC851D94EEAE00275148 /* Archer.m in Sources */,
+				AA3283C41D9A560900A496D9 /* Person.m in Sources */,
+				AA3283BC1D9A55E100A496D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AA8CAC751D94EADD00275148 /* Debug */ = {
+		AA3283BD1D9A55E100A496D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,7 +179,7 @@
 			};
 			name = Debug;
 		};
-		AA8CAC761D94EADD00275148 /* Release */ = {
+		AA3283BE1D9A55E100A496D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,14 +219,14 @@
 			};
 			name = Release;
 		};
-		AA8CAC781D94EADD00275148 /* Debug */ = {
+		AA3283C01D9A55E100A496D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		AA8CAC791D94EADD00275148 /* Release */ = {
+		AA3283C11D9A55E100A496D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -254,24 +236,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA8CAC6B1D94EADD00275148 /* Build configuration list for PBXProject "StreetFight" */ = {
+		AA3283B31D9A55E100A496D9 /* Build configuration list for PBXProject "[0927]StructExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA8CAC751D94EADD00275148 /* Debug */,
-				AA8CAC761D94EADD00275148 /* Release */,
+				AA3283BD1D9A55E100A496D9 /* Debug */,
+				AA3283BE1D9A55E100A496D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA8CAC771D94EADD00275148 /* Build configuration list for PBXNativeTarget "StreetFight" */ = {
+		AA3283BF1D9A55E100A496D9 /* Build configuration list for PBXNativeTarget "[0927]StructExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA8CAC781D94EADD00275148 /* Debug */,
-				AA8CAC791D94EADD00275148 /* Release */,
+				AA3283C01D9A55E100A496D9 /* Debug */,
+				AA3283C11D9A55E100A496D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AA8CAC681D94EADD00275148 /* Project object */;
+	rootObject = AA3283B01D9A55E100A496D9 /* Project object */;
 }

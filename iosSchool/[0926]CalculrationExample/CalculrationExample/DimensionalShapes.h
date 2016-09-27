@@ -54,7 +54,8 @@
 
 /*!
  * @discussion 직사각형 둘레
- * @param height 세로 width 높이
+ * @param height 세로
+ * @param width 높이
  * @return 직사각형 둘레 공식
  */
 - (NSInteger)rectanglePrimeter:(NSInteger)height width:(NSInteger)width;

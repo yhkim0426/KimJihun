@@ -20,7 +20,6 @@
  */
 @interface CalculrationSubject : NSObject
 
-
 @property NSInteger totalScore;
 @property NSInteger subjectCount;
 
