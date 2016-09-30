@@ -164,6 +164,9 @@ int main(int argc, const char * argv[]) {
     
     [nabi cryTo:bini];
     
+    NSLog(@"---------------NSArray-----------");
+    [nabi cryToo:@"test"];
+    
     
     
     return 0;

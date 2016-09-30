@@ -17,6 +17,7 @@
 
         self.name = name;
     }
+    
     return self;
 }
 

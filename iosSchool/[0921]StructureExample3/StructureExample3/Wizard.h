@@ -23,9 +23,9 @@
 
 - (id)physicalAttackTo:(Warrior *)someCharecter;
 - (id)megicalAttackTo:(Warrior *)someCharecter;
-- (id)integerDamage:(NSInteger *)someCharecter;
-- (id)uIntegerDamage:(NSUInteger *)someCharecter;
-- (id)floatDamage:(CGFloat *)someCharecter;
+- (id)integerDamage:(NSInteger)someCharecter;
+- (id)uIntegerDamage:(NSUInteger)someCharecter;
+- (id)floatDamage:(CGFloat)someCharecter;
 - (id)refDamage:(NSNumber *)someCharecter;
 - (id)jumpTo:(NSString *)somewhere;
 

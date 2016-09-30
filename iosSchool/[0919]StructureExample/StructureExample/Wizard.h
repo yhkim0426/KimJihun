@@ -10,14 +10,15 @@
 
 @interface Wizard : NSObject
 
-@property id mana;
+@property NSArray *mana;
 @property id spell;
 @property id intelligence;
 @property id naturePower;
 @property id summonGauge;
 
 
-- (id)fireBall;
+
+- (NSArray *)fireBall;
 - (id)frozenArrow;
 - (id)lightningAttack;
 - (id)summonMonster;

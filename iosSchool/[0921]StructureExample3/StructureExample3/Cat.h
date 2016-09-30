@@ -18,7 +18,14 @@
 @property NSNumber *jumpHeight;
 @property CGFloat weight;
 
-- (id)cry;
+- (NSString *)cry;
+
+/*!
+ * @discussion 개가 짓는다.
+ * @param <#param description#>
+ * @return <#return description#>
+ */
 - (id)cryTo:(Dog *)dog;
+- (void)cryToo:(NSString *)test;
 
 @end
