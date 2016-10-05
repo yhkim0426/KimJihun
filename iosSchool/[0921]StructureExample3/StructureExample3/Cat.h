@@ -27,5 +27,6 @@
  */
 - (id)cryTo:(Dog *)dog;
 - (void)cryToo:(NSString *)test;
++ (void)test;
 
 @end

@@ -137,7 +137,8 @@ int main(int argc, const char * argv[]) {
     
     NSLog(@"--------------1------------");
     [pack physicalAttackTo:rose];
-
+    
+    
     NSLog(@"---------------2-----------");
     [pack physicalAttackTo:rose2];
     
