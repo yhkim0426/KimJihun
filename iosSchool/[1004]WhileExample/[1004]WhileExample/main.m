@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
     [WhileClass factorial:5];
     [WhileClass triangularNum:11];
     [WhileClass addAllNum:162];
-//    [WhileClass game369:5];
+    [WhileClass game369:39];
     
     
     WhileClass *data = [[WhileClass alloc] init];

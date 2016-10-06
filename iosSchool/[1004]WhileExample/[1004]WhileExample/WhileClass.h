@@ -19,10 +19,7 @@
  * @return void LOG로 출력
  */
 + (void)whileSupply:(NSInteger)num;
-
-
 + (void)forSupply:(NSInteger)num;
-
 + (void)factorial:(NSInteger)num;
 + (void)triangularNum:(NSInteger)num;
 + (void)addAllNum:(NSInteger)num;
@@ -34,6 +31,12 @@
 - (NSArray *)songDatas:(NSDictionary *)data;
 - (NSString *)lyricsWithData:(NSDictionary *)data;
 - (NSData *)playTimeWithData:(NSDictionary *)data;
+
+- (NSArray *)songArray:(NSDictionary *)data;
+
+
+
+
 
 
 

@@ -46,7 +46,7 @@
 + (void)triangularNum:(NSInteger)num {
     
     NSInteger triangularNumber = 0;
-    for(NSUInteger i=1; i<=num; i++) {
+    for (NSUInteger i=1; i<=num; i++) {
         triangularNumber += i;
     }
     NSLog(@"triangularNum : %ld", triangularNumber );
@@ -58,7 +58,7 @@
     NSInteger sum = 0;
     NSInteger x = 0;
             
-    while(num > 0) {
+    while (num > 0) {
         x = num - (NSInteger)(num*0.1f) * 10;
         NSLog(@"*********");
         NSLog(@"%ld",(NSInteger)(num*0.1f));
@@ -69,18 +69,22 @@
      NSLog(@"addAllNum : %ld", sum );
 }
 
-//+ (void)game369:(NSInteger)num {
-//    
-//    for (NSInteger i =1; i<=num; i++){
-//        
-//        if(i % 3 == 0){
-//    
-//            i = [NSString stringWithFormat:@"%@", 1];
-//        }
-//        
-//        NSLog(@"%ld",i);
-//    }
-//}
++ (void)game369:(NSInteger)num{
+
+    for (NSInteger i = 1; i <= num; i++) {
+ 
+        BOOL is369 = NO;
+        for (NSInteger j = i; j != 0 ; j /= 10) {
+            if (j%10 == 3 || j%10 == 6 || j%10 == 9)
+                is369 = YES;
+        }
+        
+        if (is369) printf("*,");
+        else printf("%ld,", i);
+    }
+}
+
+
 
 - (NSString *)titleWithData:(NSDictionary *)data {
     
@@ -92,13 +96,11 @@
     return nil;
 }
 
-
 - (NSArray *)songTitles:(NSDictionary *)data {
     
     if (data != NULL) {
 
         NSMutableArray *songs = [[NSMutableArray alloc] init];
-        
         NSArray *songTitles = [data objectForKey:@"song_list"];
         for (NSDictionary *song in songTitles) {
             [songs addObject:[song objectForKey:@"name"]];
@@ -107,6 +109,23 @@
     }
     return nil;
 }
+
+- (NSArray *)songArray:(NSDictionary *)data {
+    
+    if (data != NULL) {
+        
+        NSMutableArray *songArr = [[NSMutableArray alloc] init];
+    }
+    
+    
+    
+    
+    return nil;
+}
+
+
+
+
 
 
 @end
