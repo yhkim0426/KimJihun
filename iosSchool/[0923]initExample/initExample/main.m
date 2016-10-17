@@ -39,8 +39,5 @@ int main(int argc, const char * argv[]) {
                                            credit:@"졸업자"];
     NSLog(@"%@, %@, %@, %ld %@", babi.name, babi.city, babi.school, babi.grade, babi.credit);
     
-    
-    
-    
     return 0;
 }

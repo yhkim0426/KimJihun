@@ -36,6 +36,4 @@
 + (CGFloat)kbToMb:(CGFloat)mb;
 + (CGFloat)gbToKb:(CGFloat)gb;
 
-
-
 @end

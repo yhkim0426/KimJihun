@@ -88,6 +88,8 @@
 
 - (NSString *)titleWithData:(NSDictionary *)data {
     
+
+    
     if (data != NULL) {
         NSDictionary *album_info = [data objectForKey:@"album_info"];
         NSString *title = [album_info objectForKey:@"title"];
@@ -110,22 +112,47 @@
     return nil;
 }
 
-- (NSArray *)songArray:(NSDictionary *)data {
++ (NSDate *)songTime:(NSString *)title data:(NSDictionary *)data{
     
-    if (data != NULL) {
-        
-        NSMutableArray *songArr = [[NSMutableArray alloc] init];
+    NSArray *song_list = [data objectForKey:@"song_list"];
+    NSDate *totalPlay;
+    
+    for(NSMutableDictionary *songName in song_list){
+        if([title isEqualToString:[songName objectForKey:@"name"]]){
+            totalPlay = [songName objectForKey:@"total_play_time"];
+        }
     }
-    
-    
-    
-    
-    return nil;
+    return totalPlay;
 }
 
+//노래제목으로 재생시간
+- (NSDate *)songTime:(NSString *)title data:(NSDictionary *)data {
+    
+    NSArray *song_list = [data objectForKey:@"song_list"];
+    NSDate *totalPlay;
+    
+    for(NSMutableDictionary *songName in song_list){
+        if([title isEqualToString:[songName objectForKey:@"name"]]){
+            totalPlay = [songName objectForKey:@"total_play_time"];
+        }
+    }
+    return totalPlay;
+}
 
-
-
-
+- (NSString *)lyricsSongTitleInput:(NSString *)title data:(NSDictionary *)data {
+    
+    NSArray *song_list = [data objectForKey:@"song_list"];
+    NSMutableDictionary *thisSong = [[NSMutableDictionary alloc]init];
+    
+    for(NSMutableDictionary *songName in song_list){
+        if([title isEqualToString:[songName objectForKey:@"name"]]){
+            thisSong = [songName objectForKey:@"song_info"];
+        }
+    }
+    
+    NSString *lyrics = [thisSong objectForKey:@"lyrics"];
+    
+    return lyrics;
+}
 
 @end

@@ -11,12 +11,6 @@
 @class CalculrationSubject;
 @implementation IfExample
 
-- (void) test {
-
-}
-
-
-
 + (BOOL)isEventNumber:(NSInteger)num {
 
     BOOL isEven = NO;
@@ -44,19 +38,19 @@
     if (point > 100 || point < 0) {
         NSLog(@"입력오류");
         grade = @"Fail";
-    } else if( point >= 95 ){
+    } else if (point >= 95) {
         NSLog(@"A+ 입니다");
         grade = @"A+";
-    } else if( point >= 90 ) {
+    } else if (point >= 90) {
         NSLog(@"A 입니다");
         grade = @"A";
-    } else if( point >= 85) {
+    } else if (point >= 85) {
         NSLog(@"B+ 입니다");
         grade = @"B+";
-    } else if( point >= 80) {
+    } else if (point >= 80) {
         NSLog(@"B 입니다");
         grade = @"B";
-    } else if ( point >= 70) {
+    } else if (point >= 70) {
         NSLog(@"C 입니다");
         grade = @"C";
     } else {

@@ -60,13 +60,13 @@
 		AA8CAC911D95001300275148 /* MyFirstMusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				AA8CAC9E1D95001300275148 /* Assets.xcassets */,
 				AA8CACA91D95003500275148 /* sound.mp3 */,
 				AA8CAC951D95001300275148 /* AppDelegate.h */,
 				AA8CAC961D95001300275148 /* AppDelegate.m */,
 				AA8CAC981D95001300275148 /* ViewController.h */,
 				AA8CAC991D95001300275148 /* ViewController.m */,
 				AA8CAC9B1D95001300275148 /* Main.storyboard */,
-				AA8CAC9E1D95001300275148 /* Assets.xcassets */,
 				AA8CACA01D95001300275148 /* LaunchScreen.storyboard */,
 				AA8CACA31D95001300275148 /* Info.plist */,
 				AA8CAC921D95001300275148 /* Supporting Files */,
@@ -311,6 +311,7 @@
 				AA8CACA81D95001300275148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

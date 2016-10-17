@@ -10,19 +10,16 @@
 
 @interface Archer : NSObject
 
-
 @property id arrow;
 @property id agility;
 @property id speed;
 @property id accuracy;
 @property id penetration;
 
-
 - (id)magicArrow;
 - (id)penetrationAttack;
 - (id)thunderArrow;
 - (id)darkShot;
 - (id)magnumShooting;
-
 
 @end

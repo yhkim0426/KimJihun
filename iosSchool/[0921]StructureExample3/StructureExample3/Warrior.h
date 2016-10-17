@@ -11,7 +11,6 @@
 @class Wizard;
 @interface Warrior : NSObject
 
-
 @property NSString *name;
 @property NSInteger health;
 @property NSUInteger mana;
@@ -19,7 +18,6 @@
 @property NSInteger magicalPower;
 @property NSInteger magicalDamage;
 @property BOOL isDead;
-
 
 - (id)physicalAttackTo:(Wizard *)someCharecter;
 - (id)megicalAttackTo:(Wizard *)someCharecter;

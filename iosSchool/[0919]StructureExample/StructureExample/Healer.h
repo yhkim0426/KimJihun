@@ -10,19 +10,16 @@
 
 @interface Healer : NSObject
 
-
 @property id aggressive;
 @property id healing;
 @property id defensive;
 @property id attack;
 @property id damage;
 
-
 - (id)healingPack;
 - (id)godBless;
 - (id)godRage;
 - (id)revival;
 - (id)summonAngel;
-
 
 @end

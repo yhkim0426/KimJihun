@@ -37,8 +37,6 @@
 - (id)runTo:(id)location bySpeed:(id)speed with:(id)someone;
 
 - (NSInteger)sum:(NSInteger)number plus:(NSString *)plus;
-
-
 - (id)talk:(id)someone topic:(id)topic language:(id)language;
 
 

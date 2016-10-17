@@ -10,19 +10,16 @@
 
 @interface Warrior : NSObject
 
-
 @property id strength;
 @property id healPoint;
 @property id manaPoint;
 @property id agility;
 @property id intelligence;
 
-
 - (id) powerAttack;
 - (id) speedAttack;
 - (id) jumpAttack;
 - (id) rollingJump;
 - (id) darkSwarm;
-
 
 @end

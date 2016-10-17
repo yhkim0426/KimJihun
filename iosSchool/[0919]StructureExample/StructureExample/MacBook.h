@@ -10,17 +10,8 @@
 
 @interface MacBook : NSObject
 
-
 @property id magicKeyBoard;
-//@property id magicSpeaker;
-//@property id adapter;
-//@property id magicMouse;
-
 
 - (id)isKeyboardConnected;
-//- (id)isMagicSpeakerConnected;
-//- (id)isAdapterConnected;
-//- (id)isMouseConnected;
-
 
 @end

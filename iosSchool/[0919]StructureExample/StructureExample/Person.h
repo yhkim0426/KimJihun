@@ -21,7 +21,6 @@
 @property id weight;
 @property id nationality;
 
-
 // - (<returnTpe>)methodName;
 - (id)methodName;
 - (id)listen;

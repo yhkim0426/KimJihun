@@ -28,7 +28,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
     CGRect labelFrame = CGRectMake(30.f, 30.f, 250.f, 30.f);
     CGRect buttonFrame = CGRectMake(30.f, 70.f, 50.f, 30.f);
     
@@ -38,8 +37,9 @@
     [self.playButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [self.playButton setTitleColor:[UIColor redColor] forState:UIControlStateSelected];
     [self.playButton setBackgroundColor:[UIColor yellowColor]];
-    
     [self.playButton addTarget:self action:@selector(clickPlayButton:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
     [self.view addSubview:self.playButton];
     
     
@@ -53,8 +53,6 @@
     
     self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundFileURL error:nil];
     [self.player setDelegate:self];
-    
-    
 }
 
 #pragma mark - Display Something
@@ -71,7 +69,6 @@
     NSLog(@"******************** %@",self.timeLabel);
     
     [self.timeLabel setText:timeString];
-    
 }
 
 #pragma mark - Button Method
@@ -85,15 +82,12 @@
                                                      selector:@selector(checkTime)
                                                      userInfo:nil
                                                       repeats:YES];
-                      
         [self.timer fire];
-                      
     } else {
         [self.player pause];
         [self.timer invalidate];
         self.timer = nil;
     }
-    
     return;
 }
                       
@@ -114,8 +108,6 @@
     [self presentViewController:alert animated:YES completion:^{
         NSLog(@"decode error occured : %@", error.localizedDescription);
     }];
-    
-    
 }
 
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag {

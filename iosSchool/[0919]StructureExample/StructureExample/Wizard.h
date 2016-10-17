@@ -16,8 +16,6 @@
 @property id naturePower;
 @property id summonGauge;
 
-
-
 - (NSArray *)fireBall;
 - (id)frozenArrow;
 - (id)lightningAttack;

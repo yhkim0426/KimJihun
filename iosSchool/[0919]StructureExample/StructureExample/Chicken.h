@@ -10,14 +10,12 @@
 
 @interface Chicken : NSObject
 
-
 @property id recipe;
+@property id sideMenu;
+
 - (id)friedChicken;
 - (id)spicyChicken;
 - (id)garlicChicken;
-
-
-@property id sideMenu;
 - (id)potatoChips;
 - (id)ChickenSalad;
 - (id)soju;

@@ -29,12 +29,12 @@
 - (NSString *)titleWithData:(NSDictionary *)data;
 - (NSArray *)songTitles:(NSDictionary *)data;
 - (NSArray *)songDatas:(NSDictionary *)data;
-- (NSString *)lyricsWithData:(NSDictionary *)data;
-- (NSData *)playTimeWithData:(NSDictionary *)data;
-
+- (NSString *)lyricsSongTitleInput:(NSDictionary *)data;
+//- (NSData *)songTime:(NSDictionary *)data;
 - (NSArray *)songArray:(NSDictionary *)data;
 
-
+- (NSDate *)songTime:(NSString *)title data:(NSDictionary *)data;
+- (NSString *)lyricsSongTitleInput:(NSString *)title data:(NSDictionary *)data ;
 
 
 

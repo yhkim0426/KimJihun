@@ -47,47 +47,6 @@
     [okBtn addTarget:self action:@selector(touchUpInsideOkBtn:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:okBtn];
     
-    
-    // okBtn 1~4
-//    UIButton *okBtn1 = [UIButton buttonWithType:UIButtonTypeCustom];
-//    UIButton *okBtn2 = [UIButton buttonWithType:UIButtonTypeCustom];
-//    UIButton *okBtn3 = [UIButton buttonWithType:UIButtonTypeCustom];
-//    UIButton *okBtn4 = [UIButton buttonWithType:UIButtonTypeCustom];
-//    
-//    okBtn1.frame = CGRectMake(50, 300, 100, 35);
-//    okBtn2.frame = CGRectMake(180, 300, 100, 35);
-//    okBtn3.frame = CGRectMake(50, 350, 100, 35);
-//    okBtn4.frame = CGRectMake(180, 350, 100, 35);
-//
-//    [okBtn1 setTitle:@"1번 버튼" forState:UIControlStateNormal];
-//    [okBtn2 setTitle:@"2번 버튼" forState:UIControlStateNormal];
-//    [okBtn3 setTitle:@"3번 버튼" forState:UIControlStateNormal];
-//    [okBtn4 setTitle:@"4번 버튼" forState:UIControlStateNormal];
-//    
-//    [okBtn1 setBackgroundColor:[UIColor blackColor]];
-//    [okBtn2 setBackgroundColor:[UIColor blackColor]];
-//    [okBtn3 setBackgroundColor:[UIColor blackColor]];
-//    [okBtn4 setBackgroundColor:[UIColor blackColor]];
-//    
-//    UILabel *displayLb = [[UILabel alloc] initWithFrame:CGRectMake(115, 400, 100, 35)];
-//    displayLb.text = @"0";
-//    [displayLb setBackgroundColor:[UIColor grayColor]];
-//    displayLb.font = [UIFont systemFontOfSize:20];
-//    displayLb.textAlignment = NSTextAlignmentRight;
-//    self.displayLb = displayLb;
-//    
-//    [okBtn1 addTarget:self action:@selector(clickOkBtn:) forControlEvents:UIControlEventTouchUpInside];
-//    [okBtn2 addTarget:self action:@selector(clickOkBtn:) forControlEvents:UIControlEventTouchUpInside];
-//    [okBtn3 addTarget:self action:@selector(clickOkBtn:) forControlEvents:UIControlEventTouchUpInside];
-//    [okBtn4 addTarget:self action:@selector(clickOkBtn:) forControlEvents:UIControlEventTouchUpInside];
-    
-//    [self.view addSubview:okBtn1];
-//    [self.view addSubview:okBtn2];
-//    [self.view addSubview:okBtn3];
-//    [self.view addSubview:okBtn4];
-//    [self.view addSubview:displayLb];
-    
-    
     NSMutableArray *item = [[NSMutableArray alloc] init];
     
     for (NSInteger i=0; i<4; i++) {
@@ -136,24 +95,6 @@
         sender.selected = YES;
         self.beforeBtn = sender;
     }
-    
-    //    if (sender.selected ) {
-    //
-    //        sender.selected = YES;
-    //        NSLog(@"TEST");
-    //        self.labelValue.text = [NSString stringWithFormat:@"TEST"];
-    //    }
-    
-    
-    //    if ([sender.titleLabel.text isEqualToString:@"1번 버튼"]) {
-    //        self.labelValue.text = [NSString stringWithFormat:@"%@",sender.titleLabel.text];
-    //    } else if ([sender.titleLabel.text isEqualToString:@"2번 버튼"]) {
-    //        self.labelValue.text = [NSString stringWithFormat:@"%@",sender.titleLabel.text];
-    //    } else if ([sender.titleLabel.text isEqualToString:@"3번 버튼"]) {
-    //        self.labelValue.text = [NSString stringWithFormat:@"%@",sender.titleLabel.text];
-    //    } else if ([sender.titleLabel.text isEqualToString:@"4번 버튼"]) {
-    //        self.labelValue.text = [NSString stringWithFormat:@"%@",sender.titleLabel.text];
-    //    }
 }
 
 

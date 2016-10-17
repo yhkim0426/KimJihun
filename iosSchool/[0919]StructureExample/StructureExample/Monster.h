@@ -10,7 +10,6 @@
 
 @interface Monster : NSObject
 
-
 //몬스터의 크기
 @property id size;
 
@@ -41,6 +40,5 @@
 
 //그냥 심심해서 만들어본 메소드.
 - (id)ticketMonster;
-
 
 @end

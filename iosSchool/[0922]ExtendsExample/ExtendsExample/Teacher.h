@@ -13,7 +13,6 @@
 
 @property NSString *subject;
 
-//- (id)teach:(id)someone;
 - (id)teach:(Student *)someone;
 
 

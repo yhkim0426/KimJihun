@@ -12,7 +12,6 @@
 
 - (id)cryTo:(Cat *)cat {
     
-    
     return nil;
 }
 

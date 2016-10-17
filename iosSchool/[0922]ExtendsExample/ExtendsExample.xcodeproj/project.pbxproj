@@ -116,9 +116,9 @@
 				AAFCEA961D936A300040E09E /* Warrior.h */,
 				AAFCEA971D936A300040E09E /* Warrior.m */,
 				AAFCEA991D936A370040E09E /* Wizard.h */,
+				AAFCEA9A1D936A370040E09E /* Wizard.m */,
 				AAFCEAA21D936D680040E09E /* GameCharecter.h */,
 				AAFCEAA31D936D680040E09E /* GameCharecter.m */,
-				AAFCEA9A1D936A370040E09E /* Wizard.m */,
 			);
 			name = game;
 			sourceTree = "<group>";

@@ -69,14 +69,14 @@
 		AA91261F1D98BA8B003364F1 /* CalculrationExample */ = {
 			isa = PBXGroup;
 			children = (
-				AA055AB91D98ED9A008C94A0 /* MeasurementChange.h */,
+				AA9126201D98BA8B003364F1 /* main.m */,
 				AA055ABC1D98FE53008C94A0 /* IfExample.h */,
 				AA055ABD1D98FE53008C94A0 /* IfExample.m */,
+				AA055AB91D98ED9A008C94A0 /* MeasurementChange.h */,
 				AA055ABA1D98ED9A008C94A0 /* MeasurementChange.m */,
-				AA9126201D98BA8B003364F1 /* main.m */,
-				AA9126271D98BA9B003364F1 /* CalculrationSubject.h */,
 				AA91262A1D98C169003364F1 /* DimensionalShapes.h */,
 				AA91262B1D98C169003364F1 /* DimensionalShapes.m */,
+				AA9126271D98BA9B003364F1 /* CalculrationSubject.h */,
 				AA9126281D98BA9B003364F1 /* CalculrationSubject.m */,
 			);
 			path = CalculrationExample;

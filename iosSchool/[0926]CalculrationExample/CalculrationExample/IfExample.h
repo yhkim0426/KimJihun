@@ -15,8 +15,6 @@
 @property CGFloat point;
 
 
-
-
 + (BOOL)isEventNumber:(NSInteger)num;
 
 + (NSString *)pointToGrade:(CGFloat)point;
@@ -24,12 +22,9 @@
 + (void)scholarShipWithGrade:(NSInteger)grade;
 + (NSInteger)monthFinalDay:(NSInteger)month;
 
-
 + (NSInteger)absoluteNum:(NSInteger)num;
 + (CGFloat)roundNum:(CGFloat)num ;
 + (BOOL)yearCheck:(NSInteger)year;
-
-
 
 
 @end

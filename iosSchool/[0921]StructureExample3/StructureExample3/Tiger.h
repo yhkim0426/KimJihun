@@ -10,12 +10,10 @@
 
 @interface Tiger : NSObject
 
-
 @property NSString *name;
 @property NSInteger age;
 @property NSUInteger speed;
 @property NSNumber *jumpHeight;
 @property CGFloat weight;
-
 
 @end
