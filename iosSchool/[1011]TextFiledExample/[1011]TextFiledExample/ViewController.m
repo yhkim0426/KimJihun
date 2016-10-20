@@ -12,16 +12,12 @@
 
 @property UITextField *text;
 @property UILabel *result;
-
 @property UILabel *resultText;
 
 @end
 
 @implementation ViewController
 @synthesize textInput, resultLabel;
-
-
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -56,8 +52,6 @@
     [self.text resignFirstResponder];
     return YES;
 }
-
-
 
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField {

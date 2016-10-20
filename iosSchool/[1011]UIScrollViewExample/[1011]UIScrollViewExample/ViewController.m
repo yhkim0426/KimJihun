@@ -19,7 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 460)];
     // 컨텐츠 사이즈 조정
     [scrollView setContentSize:CGSizeMake(scrollView.frame.size.width*3, 460)];
@@ -51,12 +50,9 @@
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    
-    NSLog(@"TEST");
     NSInteger pageNum = scrollView.contentOffset.x/320+1;
     self.pageNum.text = [[NSString alloc] initWithFormat:@"%ld page",pageNum];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

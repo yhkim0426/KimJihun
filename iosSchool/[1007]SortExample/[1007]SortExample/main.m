@@ -14,7 +14,6 @@
 
 int main(int argc, const char * argv[]) {
     
-    
     NSMutableArray *ranList = [[NSMutableArray alloc] init];
     for (NSInteger i=0; i<5; i++) {
         NSInteger ran = arc4random_uniform(100);
@@ -50,9 +49,6 @@ int main(int argc, const char * argv[]) {
     MergeSort *mSort = [[MergeSort alloc] init];
     NSArray *msortedList = [mSort mergeSort:mData];
     NSLog(@"%@",msortedList);
-    
-    
-    
     
     return 0;
 }

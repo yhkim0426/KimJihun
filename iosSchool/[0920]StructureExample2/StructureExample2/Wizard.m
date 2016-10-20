@@ -32,6 +32,8 @@
     return nil;
 }
 
+
+
 /*!
  * @discussion NSLog, 1 parameter
  * @param to 매직미사일의 대상

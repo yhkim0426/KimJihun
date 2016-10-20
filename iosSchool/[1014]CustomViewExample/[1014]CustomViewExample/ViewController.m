@@ -23,9 +23,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
-    
-    
     self.tvView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     self.tvView.delegate = self;
     self.tvView.dataSource = self;
@@ -39,7 +36,6 @@
                       @{@"title":@"space8",@"imageUrl":@"2.jpg"},
                       @{@"title":@"space9",@"imageUrl":@"3.jpg"}];
     [self.view addSubview:self.tvView];
-    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -49,16 +45,15 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     IdolCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-
     
     if(cell == nil) {
         cell = [[IdolCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
 
     NSDictionary *data = self.dataList[indexPath.row];
-    
     [cell setBackgroundImageName:[data objectForKey:@"imageUrl"]];
     [cell setTitle:[data objectForKey:@"title"]];
+
     return cell;
 }
 

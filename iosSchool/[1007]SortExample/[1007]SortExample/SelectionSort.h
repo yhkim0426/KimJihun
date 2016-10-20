@@ -14,4 +14,5 @@
 @property NSInteger totalCompareCount;
 
 - (NSArray *)sort:(NSArray *)list;
+
 @end

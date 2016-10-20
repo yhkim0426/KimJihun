@@ -31,6 +31,7 @@
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+   
     NSArray *animalKeyArray = [self.animalList allKeys];
     NSArray *animalArray = [self.animalList objectForKey:animalKeyArray[section]];
     
@@ -38,10 +39,12 @@
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+
     return [self.animalList allKeys].count;
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    
     NSArray *title = [self.animalList allKeys];
     return [title objectAtIndex:section];
 }
@@ -60,9 +63,7 @@
     NSString *currentKey = [allKeys objectAtIndex:indexPath.section];
     NSArray *currentArray = [self.animalList objectForKey:currentKey];
     NSString *currentValue = [currentArray objectAtIndex:indexPath.row];
-    
     cell.textLabel.text = currentValue;
-    
     
     return cell;
 }

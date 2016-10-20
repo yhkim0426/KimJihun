@@ -16,7 +16,6 @@
  */
 @interface Student : Person
 
-
 /*! @brief  학년 */
 @property NSInteger grade;
 /*! @brief  학교이름 */
@@ -28,13 +27,13 @@
 
 /*!
  * @discussion 공부에 대한 메소드
- * @return nil
+ * @return id
  */
 - (id)study:(NSString *)subject;
 
 /*!
  * @discussion select 대한 오버라이딩
- * @return nil
+ * @return id
  */
 - (id)select:(GameCharecter *)charecter;
 

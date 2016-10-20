@@ -19,14 +19,9 @@
     if ([unsortedMutable count]<1) {
         return nil;
     }
-    
     //pivot 정하기
     
     //Divide
-    
-    //
-    
-    
     return nil;
 }
 

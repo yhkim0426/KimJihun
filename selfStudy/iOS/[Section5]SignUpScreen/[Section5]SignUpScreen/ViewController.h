@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController<UITextFieldDelegate>
 
+
 @property (strong, nonatomic) IBOutlet UITextField *nameTextField;
 
 @property (strong, nonatomic) IBOutlet UITextField *idTextField;
@@ -22,7 +23,9 @@
 
 @property (strong, nonatomic) IBOutlet UITextView *resultText;
 
+
 - (IBAction)signUpAction:(id)sender;
+
 
 @end
 

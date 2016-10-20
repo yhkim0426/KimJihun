@@ -30,7 +30,6 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    
     return self.carName.count;
 }
 
@@ -43,8 +42,6 @@
           cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];
         NSLog(@"%ld", indexPath.row);
     }
-    
-    
     
     cell.textLabel.text = self.carName[indexPath.row];
     return cell;

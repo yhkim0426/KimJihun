@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA8856E81DB30B4D00DA1702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8856E71DB30B4D00DA1702 /* main.m */; };
+		AAE1651C1DB5A54D009E06E8 /* Vehivcle.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE1651B1DB5A54D009E06E8 /* Vehivcle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		AA8856E41DB30B4D00DA1702 /* BasicGrammer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BasicGrammer; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8856E71DB30B4D00DA1702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAE1651A1DB5A54D009E06E8 /* Vehivcle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehivcle.h; sourceTree = "<group>"; };
+		AAE1651B1DB5A54D009E06E8 /* Vehivcle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehivcle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				AA8856E71DB30B4D00DA1702 /* main.m */,
+				AAE1651A1DB5A54D009E06E8 /* Vehivcle.h */,
+				AAE1651B1DB5A54D009E06E8 /* Vehivcle.m */,
 			);
 			path = BasicGrammer;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8856E81DB30B4D00DA1702 /* main.m in Sources */,
+				AAE1651C1DB5A54D009E06E8 /* Vehivcle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 				AA8856ED1DB30B4D00DA1702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -25,11 +25,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-    
     self.isEditing = NO;
     UIBarButtonItem *editButton = [[UIBarButtonItem alloc] initWithTitle:@"Edit" style:UIBarButtonItemStylePlain target:self action:@selector(onClickEditButton:)];
     [self.navigationItem setRightBarButtonItem:editButton];
-    
     
     // 이미지 이름, 제목, 상세설명 배열 형태로 저장
     self.animalName = @[@{@"name":@"bear",@"image":@"bear",@"descript":@"This is Bear",@"switchCell":@0},
@@ -58,8 +56,6 @@
     [self.view addSubview:tableView];
 }
 
-
-
 - (void)onClickEditButton:(UIBarButtonItem *)item {
     
     if (!self.isEditing) {
@@ -72,26 +68,19 @@
 
 }
 
-
-
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 60;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return section+1
-    ;
+    return section+1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    
-    
     return self.animalName.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    
     
     NSDictionary *item = [self.animalName objectAtIndex:indexPath.row];
     UITableViewCell *cell;
@@ -114,16 +103,14 @@
             
         }
     }
-    
-    
-    
-    
-    
+
     cell.textLabel.text = [item objectForKey:@"name"];
     cell.detailTextLabel.text = [item objectForKey:@"descript"];
     NSString *path = [[NSBundle mainBundle] pathForResource:[item objectForKey:@"image"] ofType:@"jpg"];
     UIImage *theImage = [UIImage imageWithContentsOfFile:path];
     cell.imageView.image = theImage;
+    
+    return cell;
     
 //    UISwitch *mySwitch = [[UISwitch alloc] init];
     
@@ -154,8 +141,6 @@
     
     
     */
-    
-    return cell;
 }
 
 
@@ -164,11 +149,8 @@
     
     
     NSDictionary *animal = [self.animalName objectAtIndex:indexPath.row];
-    
     NSString *name = [animal objectForKey:@"name"];
     
-    
-
     UIAlertController * alert=   [UIAlertController
                                   alertControllerWithTitle:@"My Title"
                                   message:[NSString stringWithFormat:@"%@",name]
@@ -176,27 +158,18 @@
     [self presentViewController:alert animated:YES completion:nil];
     
     UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:^(UIAlertAction * action) {
-        
         UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-        cell.accessoryType = UITableViewCellAccessoryCheckmark;
-        
-        
-                         }];
+        cell.accessoryType = UITableViewCellAccessoryCheckmark; }];
     [alert addAction:ok];
-    
 }
 
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
     NSLog(@"TEST");
 }
 
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     return YES;
 }
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

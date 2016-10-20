@@ -16,7 +16,7 @@
 }
 
 - (id)select:(GameCharecter *)charecter {
- 
+
     if(/* DISABLES CODE */ (NO)){
         [super select:charecter];
     } else {
